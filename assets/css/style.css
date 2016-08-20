@@ -1,0 +1,97 @@
+* {
+	font-family: "Star Jedi", arial;
+}
+body {
+	background: url(../images/bg.jpg);
+	background-size: cover;
+}
+#game-title {
+	float: left;
+	display: inline-block;
+	font-size: 45px;
+	margin-left: 7px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#character-selection {
+	float: left;
+	clear: left;
+}
+#cs-text {
+	font-size:27px;
+	margin-bottom: 0px;
+}
+figure {
+	display: inline-block;
+	margin-left: 7px;
+	margin-right: 7px;
+	padding: 1px 15px;
+	border: 2px solid green;
+}
+figcaption {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#att-enemies {
+	float: left;
+	clear: left;
+}
+#ae-text {
+	font-size: 27px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+#chosen-character {
+	float: right;
+	position: relative;
+	margin-top: -87px;
+	text-align: center;
+}
+#cc-text {
+	font-size: 27px;
+	margin-bottom: -20px;
+}
+#opponent {
+	clear: right;
+	float: right;
+	margin-top: 90px;
+	text-align: center;
+}
+#oppo-text {
+	font-size: 27px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+#combat-sec {
+	clear: left;
+	clear: right;
+	float: right;
+	margin-top: 77px;
+	text-align: center;
+}
+#cs-text {
+	font-size: 27px;
+}
+.button {
+	background-color: #ff5c00;
+}
+.good {
+	border: 3px dashed green;
+}
+.bad {
+	border: 3px solid red;
+}
+.currentOppo {
+	border: 3px dashed red;
+}
+#status {
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 3px;
+	border: 5px ridge #ff5c00;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

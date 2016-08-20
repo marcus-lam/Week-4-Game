@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Star Wars RPG!</title>
+	<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+	<link href="http://allfont.net/allfont.css?fonts=star-jedi" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<header>
+		<h1 id="game-title">Star Wars RPG - versus Series</h1>
+	</header>
+
+	<div id="character-selection">
+		<p id="cs-text">Choose Your Character:</p>
+		<figure id="rey" class="character">
+			<figcaption>Rey</figcaption>
+			<img src="assets/images/rey.jpg" height="130" width="130">
+			<figcaption class="health">HP: 142</figcaption>
+		</figure>
+		<figure id="revan" class="character">
+			<figcaption>Revan</figcaption>
+			<img src="assets/images/revan.jpg" height="130" width="130">
+			<figcaption class="health">HP: 155</figcaption>
+		</figure>
+		<figure id="lucas" class="character">
+			<figcaption>Darth CGi</figcaption>
+			<img src="assets/images/lucas.jpg" height="130" width="130">
+			<figcaption class="health">HP: 169</figcaption>
+		</figure>
+		<figure id="binks" class="character">
+			<figcaption>Darth Jar Jar</figcaption>
+			<img src="assets/images/binks.jpg" height="130" width="130">
+			<figcaption class="health">HP: 200</figcaption>
+		</figure>
+	</div>
+
+	<div id="chosen-character">
+		<p id="cc-text">Your Character<p>
+	</div>
+
+	<div id="att-enemies">
+		<p id="ae-text">Attackable opponents:</p>
+	</div>
+
+	<div id="combat-sec">
+		<p id="cs-text">Combat Section</p>
+		<button id="attack-button" class="button">Attack!</button>
+	</div>
+
+	<div id="opponent">
+		<p id="oppo-text">Your opponent</p>
+	</div>
+
+	<div id="status">
+		<div id="cc-status"></div>
+		<div id="opponent-status"></div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
